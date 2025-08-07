@@ -1,9 +1,3 @@
-<?php
-// packages.php
-$pageTitle = "Travel Packages";
-require_once 'includes/header.php';
-?>
-
 <style>
     .packages-section {
         padding: 5rem 0;
@@ -187,7 +181,7 @@ require_once 'includes/header.php';
     }
 </style>
 
-<section class="packages-section">
+<section id="packages" class="packages-section">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title">Choose Your <span>Adventure</span></h2>
@@ -240,7 +234,55 @@ require_once 'includes/header.php';
                     <div class="price-container">
                         <div class="price-text">Starting from <span class="price-amount">R8000</span></div>
                     </div>
-                    <a href="/booking/basic" class="book-button">Book Essential Package</a>
+                    <a href="/e-comm/booking-process.php" class="book-button">Book Essential Package</a>
+                </div>
+            </div>
+
+            <div class="package-card">
+                <div class="package-header">
+                    <div class="package-header-content">
+                        <div>
+                            <h3 class="package-name">Essential Travel</h3>
+                            <p class="package-subtitle">Perfect for straightforward journeys</p>
+                        </div>
+                        <svg class="package-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="package-body">
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <span class="feature-text">Flight seat selection (Economy, Business, First Class)</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <span class="feature-text">Destination selection</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <span class="feature-text">Travel date planning</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                            <span class="feature-text">24/7 customer support</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price-container">
+                        <div class="price-text">Starting from <span class="price-amount">R8000</span></div>
+                    </div>
+                    <a href="/e-comm/booking-process.php" class="book-button">Book Essential Package</a>
                 </div>
             </div>
 
@@ -303,13 +345,9 @@ require_once 'includes/header.php';
                     <div class="price-container">
                         <div class="price-text">Starting from <span class="price-amount">R17000</span></div>
                     </div>
-                    <a href="/booking/premium" class="book-button">Book Premium Package</a>
+                    <a href="/e-comm/booking-process.php" class="book-button">Book Premium Package</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<?php
-require_once 'includes/footer.php';
-?>

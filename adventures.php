@@ -126,6 +126,3 @@ document.getElementById('numActivities').addEventListener('change', function() {
 });
 </script>
 
-<?php
-require_once 'includes/footer.php';
-?>

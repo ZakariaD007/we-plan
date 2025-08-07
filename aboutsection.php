@@ -1,8 +1,3 @@
-<?php
-// about-section.php
-$pageTitle = "About Us";
-require_once 'includes/header.php';
-?>
 
 <style>
     .about-section {
@@ -177,6 +172,3 @@ require_once 'includes/header.php';
     </div>
 </section>
 
-<?php
-require_once 'includes/footer.php';
-?>

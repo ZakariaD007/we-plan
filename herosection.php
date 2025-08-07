@@ -1,9 +1,3 @@
-<?php
-// hero-section.php
-$pageTitle = "Home";
-require_once 'includes/header.php';
-?>
-
 <style>
     .hero-section {
         position: relative;
@@ -20,13 +14,13 @@ require_once 'includes/header.php';
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity: 0.2;
+        opacity: 0.5; /* Changed from 0.2 to 0.5 for more visibility */
     }
     
     .hero-overlay {
         position: absolute;
         inset: 0;
-        background: linear-gradient(135deg, rgba(253, 242, 248, 0.5) 0%, rgba(239, 246, 255, 0.5) 100%);
+        background: linear-gradient(135deg, rgba(253, 242, 248, 0.3) 0%, rgba(239, 246, 255, 0.3) 100%);
     }
     
     .hero-content {
@@ -111,7 +105,7 @@ require_once 'includes/header.php';
 
 <section id="home" class="hero-section">
     <div class="hero-background">
-        <img src="https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Airplane in the sky">
+        <img src="pexels.jpg" alt="Airplane in the sky">
         <div class="hero-overlay"></div>
     </div>
     
@@ -136,7 +130,3 @@ require_once 'includes/header.php';
         </div>
     </div>
 </section>
-
-<?php
-require_once 'includes/footer.php';
-?>

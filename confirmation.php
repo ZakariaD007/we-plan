@@ -279,5 +279,3 @@ try {
 session_unset();
 session_destroy();
 
-require_once 'includes/footer.php';
-?>
